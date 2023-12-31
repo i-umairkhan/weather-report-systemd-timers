@@ -1,0 +1,8 @@
+[Unit]
+Description=Weather Report Timer
+
+[Timer]
+OnCalender=Mon..Fri 10:00
+
+[Install]
+WantedBy=timers.target

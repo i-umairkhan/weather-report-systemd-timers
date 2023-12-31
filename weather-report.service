@@ -1,0 +1,12 @@
+[Unit]
+Description=Weather Report Service File
+After=network-online.target
+Wants=network-online.target
+
+
+[Service]
+ExecStart=/bin/sh -c 'wall $(curl wttr.in/islamabad?format=3)'
+
+[Install]
+WantedBy=default.target
+
