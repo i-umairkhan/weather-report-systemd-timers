@@ -1,6 +1,6 @@
-systemd service and timer file to show weather report to logged in users.
+systemd service and timer file to show weather reports to logged-in users.
 
-`cp weather-report.service /etc/systemd/system`
-`cp weather-report.timer /etc/systemd/system`
-`sudo systemctl deamon-relaod`
-`sudo systemctl eanable weather-relaod.timer`
+`cp weather-report.service /etc/systemd/system` </br>
+`cp weather-report.timer /etc/systemd/system` </br>
+`sudo systemctl deamon-relaod` </br>
+`sudo systemctl eanable weather-relaod.timer` </br>
